@@ -33,7 +33,7 @@
 #!/bin/bash
 
 # 定义目标文件名（当前目录下的 weights.tar.gz）
-FILE="weights.tar.gz"
+FILE="./scripts/weights.tar.gz"
 
 # 检查文件是否存在
 if [ ! -f "$FILE" ]; then
